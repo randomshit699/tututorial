@@ -1,4 +1,4 @@
-# tututorial
+# tutorial
 如何搭建auto-proxy-pool并进入线报群
 
 ## 1.主机
