@@ -8,11 +8,11 @@ upstream:
         apiUrl: http://xxxx #填你的代理提取API
         upstreamFixedAuth: ""
         requestInterval: 1000ms
-        lifecycle: 30s
-        proactive: 27s
+        lifecycle: 60s
+        proactive: 55s
         proactiveOnIdleSize: 0
         proactiveOnIdleCheckInterval: 1h
-        maxSize: 1
+        maxSize: 2
         loadBalanceMultiple: 1
         disableOptimizationIp: true
         groupIndex: 1
