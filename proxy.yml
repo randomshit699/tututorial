@@ -1,0 +1,35 @@
+changeRequest: 
+    - hostRegex: .*
+      loadBalanceInterval: 100
+      black: false
+      proxy: proxy #,proxy2,proxy3 #等等...如果有多条代理API
+upstream:
+    proxy:
+        apiUrl: http://xxxx #填你的代理提取API
+        upstreamFixedAuth: ""
+        requestInterval: 1000ms
+        lifecycle: 30s
+        proactive: 27s
+        proactiveOnIdleSize: 0
+        proactiveOnIdleCheckInterval: 1h
+        maxSize: 1
+        loadBalanceMultiple: 1
+        disableOptimizationIp: true
+        groupIndex: 1
+        failSleep: 10m
+        failThreshold: 1
+    #proxy2:
+    #   照抄上面的proxy
+    #proxy3:
+users: #用户名：密码认证，这块勿改
+    gdot0: wings573
+log: 
+    pool.pool.pull: info
+    root: info
+config: 
+    dataCopyMode: "1"
+    disableStatusView: "true"
+    enableHttpRootToHtml: "false"
+    logIpDesensitization: "true"
+dev: {}
+defaultFailBack: DIRECT
