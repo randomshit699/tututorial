@@ -30,7 +30,7 @@ docker restart autoProxyPool
 ![image](https://github.com/randomshit699/tututorial/assets/156558122/75981798-cfd5-4ebb-864d-9857bc377b45)
 
 
-### 4.将代理池ip和端口发给我
+## 4.将代理池ip和端口发给我
 例如：`38.47.255.116:24769`  
 联系我：https://t.me/gdot0  
 验证通过后会邀请你进入线报群
